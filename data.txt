@@ -1,0 +1,6 @@
+# bank_key BIN 
+tpb 970423 
+vcb 970436 
+vpb 970432 
+bidv 970418 
+ocb 970448

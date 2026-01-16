@@ -1,0 +1,23 @@
+# VCS
+.git/
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Envs
+.venv/
+venv/
+penv/
+
+# Env files
+.env
+.env.*
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
