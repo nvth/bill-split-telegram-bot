@@ -109,8 +109,8 @@ async def cmd_c(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         )
         return
 
-    default_stk = os.getenv("DEFAULT_STK", "00996553702")
-    default_bank = os.getenv("DEFAULT_BANK", "tpb")
+    default_stk = os.getenv("DEFAULT_STK")
+    default_bank = os.getenv("DEFAULT_BANK")
 
     if args[0].isalpha():
         if len(args) < 3:
