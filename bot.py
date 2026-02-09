@@ -105,7 +105,9 @@ async def cmd_c(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             "/c [ma_ngan_hang] stk [so_tien] [so_nguoi] [noi_dung]\n"
             "Hoac ck cho em Hiep: \n"
             "/c [so_tien] [so_nguoi] [noi_dung]\n"
-            "Mac dinh: khong can nhap so_nguoi neu so nguoi = 1"
+            "Mac dinh: \n"
+            "- khong can nhap so_nguoi neu so nguoi = 1\n"
+            "- khong can nhap noi dung chuyen khoan\n"
         )
         return
 
@@ -210,7 +212,10 @@ async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         "Mac dinh chuyen khoan cho em Hiep:\n"
         "/c [so_tien] [so_nguoi] [noi_dung](optional)\n"
         "============\n"
-        "Luu y: Khong can nhap so nguoi neu so nguoi = 1"
+        "Luu y: \n"
+        "- Khong can nhap so nguoi neu so nguoi = 1\n"
+        "- Khong can nhap noi dung chuyen khoan\n"
+        
     )
 
 

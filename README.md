@@ -60,7 +60,7 @@ Neu so nguoi = 1, co the bo qua:
 ```
 
 ### Dang mac dinh cho Hiep
-Mac dinh lay tu `.env`: `DEFAULT_BANK` va `DEFAULT_STK` (neu khong co thi dung tpb / 00996553702).
+Mac dinh lay tu `.env`: `DEFAULT_BANK` va `DEFAULT_STK`.
 ```
 /c so_tien so_nguoi noi_dung
 ```
